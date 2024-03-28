@@ -10,7 +10,7 @@ for i in range(T):
 for i in range(len(n)):
    #forth divide the T.C by 3 and assign it to c2
    c2.append(int(n[i] // 3))
-
+#copy the list to c1
 c1 = list(c2)
 #fifth maka aonther loop to sum c1 and c2 and  cheak if the total is equal to n
 for j in range(len(n)):
